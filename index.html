@@ -1,130 +1,456 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Official Website of Women Engineers Code Conference">
     <meta name="author" content="Harvard Women in CS">
-    <meta name="robots" content="NOODP">
-    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon" />
-    <link rel="icon" href="/img/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+	
+	<title>WECode</title>
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <title>WECode</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slider -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="css/custom.css">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  </head>
+  
+  <body>
+	<!-- Navigation -->
+	<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+		<div class = "container">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+				</button>
+			</div>
+			
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+		            <li><a class="page-scroll bold" href="#about">About</a></li>
+		            <li><a class="page-scroll bold" href="#sponsors">Sponsors</a></li>
+		            <li><a class="page-scroll bold" href="#schedule">Schedule</a></li>
+					<li><a class="page-scroll bold" href="#registration">Registration</a></li>
+		            <li><a class="page-scroll bold" href="#faq">FAQ</a></li>
+					<li><a class="page-scroll bold" target="_blank" href="2015.html">WECode 2015</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
 
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-
-                    </li>
-                    <li>
-                    <a class="page-scroll" target="_blank" href="2015.html">WECode 2015</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
+	<!-- Home -->
+    <div id="home" class="text-center">
+		<div class = "overlay">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <img style = "padding-top: 100px; margin: 0 auto;" class="img-responsive" src= "/img/logo.png" alt="WECode Logo">
-                        <h1 class="brand-heading" style="font-size: 40px;">February 27-28, 2016<br> 
-                            Harvard University<br>
-                        <br>
-                        <p>More information to come!</p>
-                        <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/harvardwecode" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com/WECodeHarvard" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                    </ul>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        <img style = "padding-top: 120px; margin: 0 auto;" class="img-responsive" src= "img/logo.png" alt="WECode Logo">
+						<h1 style="font-size: 40px; text-transform: uppercase;"><strong>FEB 27 - 28, 2016 <br> Harvard University </strong></h1><br>
+	                    <ul class="list-inline banner-social-buttons">
+	                        <li>
+	                            <a href = "https://docs.google.com/forms/d/1yl9lXTJIVtrRNC6xQQLcrhL_Ozkzyag-c4EvcMNwavI/viewform" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-user-plus fa-fw"></i><span class="network-name">  Register</span></a>
+	                        </li>
+	                        <li>
+	                            <a href="https://www.facebook.com/harvardwecode" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+	                        </li>
+	                        <li>
+	                            <a href="https://www.twitter.com/WECodeHarvard" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+	                        </li>
+	                    </ul>
+						<a href="#about" class="fa fa-angle-down page-scroll"></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+		</div>
+    </div>
+	
+	<!-- Login -->
+	<div class="modal fade" id="login2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div id="logins" class = "box">
+				<div class = "we-title">
+				</div>
+				<form action="/auth" method="POST">
+					<div class="form-group">
+						<input type="text" name="email" placeholder="Email" class="form-control" required="required"/>
+					</div>
+					<div class="form-group">
+						<input type="password" name="password" placeholder="Password" class="form-control" required="required"/> <br>
+					</div>
+					<a id="btn-login" href="#" class="btn btn-success lowercase">Login</a>
+					<a id="btn-fblogin" href="#" class="btn btn-primary lowercase">Facebook</a>
+				</form> <br>
+				<div>
+					<p><a href="./forgotpassword" class="forgot">Forgot password?</a></p>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12 control">
+						<div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+							Don't have an account?
+							<a href="#" onClick="$('#logins').hide(); $('#signup').show()">Sign Up Here</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		    <div id="signup" style="display:none" class = "box">
+				<div class = "we-title">
+				</div>
+				<form action="/create" method="POST">
+					<div class="form-group">
+						<input type="text" name="first" placeholder="First Name" class="form-control" required="required"/>
+					</div>
+					<div class="form-group">
+						<input type="text" name="last" placeholder="Last Name" class="form-control" required="required"/>
+					</div>
+					<div class="form-group">
+						<input type="text" name="email" placeholder="Email" class="form-control"required="required"/>
+					</div>
+					<div class="form-group">
+						<input type="password" name="password" placeholder="Password" class="form-control" required="required"/>
+					</div>
+					<a id="btn-login" href="#" class="btn btn-success lowercase">Sign Up</a> <p></p>
+					<a id="btn-fblogin" href="#" class="btn btn-primary lowercase">Login with Facebook</a>
+				</form> <br>
+				<div class="form-group">
+					<div class="col-md-12 control">
+						<div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+							Already have an account?
+							<a id="signinlink" href="#" onclick="$('#signup').hide(); $('#logins').show()">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-   <!-- About Section -->
-    <section id="about" class="content-section text-center">
-        <div class="about-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 style = "color: #eda09a;font-size: 50px;">About WECode</h2>
-                    <p>You're invited to <b>WECode (Women Engineers Code)</b>, a conference for technical college students on February in Northwest Labs at Harvard University. Expand your skills, build your network and promote women in tech.</p>
-                    <br>
-                    <p>All genders are encouraged to attend. Enjoy empowering <b>keynotes</b>, intimate <b>workshops</b> and mingling with industry leaders from Google, Facebook, Goldman Sachs, Dropbox and more! Expand your network while doing our <b>puzzle hunt</b> and meeting <b>entrepreneurs and founders</b>.</p>
-                    <p> <b>Any questions? Please e-mail <a href="mailto:harvardwecode@gmail.com">harvardwecode@gmail.com.</a></b></p>
-                    <br>
+	<!-- About Us -->
+	<div id ="about" class = "text-center">
+		<div class="container">
+            <div class="section-title center">
+                <h2>About WECode</h2>
+                <div class="line">
+                </div>
+				<div class="clearfix"></div>
+			</div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+					 <p>WECode (Women Engineers Code) is the largest student-run Women in Computer Science conference, held at Harvard University each February. Our mission is to expand the skills, network, and community of technical women worldwide. We bring together women over the course of two amazing days to share ideas and conversations on technology and innovation.</p> <br>
+					 <p>All genders are encouraged to attend! Enjoy empowering keynotes, intimate workshops and mingling with industry leaders from top tech companies. Expand your network, strengthen your connection to the Women in CS community, and explore new areas of interest.</p> <br>
+					 <p><b>Your $40 ticket includes: </b></p>
+                    <div class="table-responsive">
+                        <table style="width:100%" align="center">
+                          	<tr>
+                            	<td style="width:50%">Admission to Saturday and Sunday conference events, with 4 keynotes, lightning talks, panels, workshops, and other fun activities
+</td>
+                            	<td style="width:50%">Admission to the Saturday evening mixer and a Friday night slumber party</td> 
+                          	</tr>
+                          	<tr>
+                            	<td>Opportunities Fair</td>
+                            	<td>Two breakfasts and two lunches</td>
+                          	</tr>
+                            <tr>
+                            	<td>A short sleeved, super-soft WECode shirt</td>
+                            	<td>Swag, swag, and more swag!</td>
+                          	</tr>
+                        </table>
+                    </div>
+					<br> 
+					<p> Please reach out with any questions to <a class = "dark" href="mailto:harvardwecode@gmail.com">harvardwecode@gmail.com.</a> </p>
                 </div>
             </div>
-        </div>
-    </section>
+			
+			<div class="space"></div>
+			
+			<div class ="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p style="font-size: 20px"><b>WECode 2015 Statistics </b></p>
+				</div>
+			</div>
+			
+			<div class="space"></div>
+			
+            <div class="row">
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-users"></i>
+                    <h4><strong>500+ attendees</strong></h4>
+                </div>
 
-    <!-- Footer -->
-    <footer>
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-microphone"></i>
+                    <h4><strong>4 Keynote Speakers</strong></h4>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-cog fa-spin"></i>
+                    <h4><strong>11 workshops, 6 panels and more</strong></h4>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-usd"></i>
+                    <h4><strong>$10,000+ in scholarships to the Conference</strong></h4>
+                </div>
+            </div>
+		</div>
+		<div class="space"></div>
+	</div>
+	
+	<!-- Sponsors -->
+	<div id ="sponsors" class = "text-center">
+		<div class="container">
+            <div class="section-title center">
+                <h2>Sponsors</h2>
+                <div class="line">
+                </div>
+				<div class="clearfix"></div>
+			</div>
+			<p><b>A huge thank you to all the sponsors of Harvard Women in CS, who make this conference possible:</b></p>
+            <h3><b style= "color: #F2A0A0"> Platinum Sponsors</b></h3>
+            <ul class="list-inline">
+                <li><img class="platsponsor img-responsive" src= "img/sponsors/platinum/goldman.png" alt="Goldman Sachs"></li>
+                <li><img class="platsponsor img-responsive" src= "img/sponsors/platinum/sigma.png" alt="Two Sigma"></li>
+				<li><img class="sponsor img-responsive" src= "img/sponsors/platinum/microsoft.png" alt="Microsoft"></li>
+            </ul>
+            <h3><b style= "color: #F2A0A0">Gold Sponsors</b></h3>
+            <ul class="list-inline">
+                <li><img class="goldsponsor img-responsive" src= "img/sponsors/gold/akamai.png" alt="Akamai"></li>
+				<li><img class="goldsponsor img-responsive" src= "img/sponsors/gold/janestreet.png" alt="Jane Street"></li>
+            </ul>
+            <h3><b style= "color: #F2A0A0">Silver Sponsors</b></h3>
+            <ul class="list-inline">
+                <li><img class="sponsor img-responsive" src= "img/sponsors/silver/deshaw.png" alt="DE Shaw Research"></li>
+                <li><img class="sponsor img-responsive" src= "img/sponsors/silver/airbnb.png" alt="Airbnb"></li>
+				<li><img class="sponsor img-responsive" src= "img/sponsors/silver/samsung.png" alt="Samsung"></li>
+				<li><img class="sponsor img-responsive" src= "img/sponsors/silver/capital.png" alt="Capital One"></li>
+				<li><img class="bigsize img-responsive" src= "img/sponsors/silver/yelp.png" alt="Yelp"></li>
+            </ul>
+            <h3><b style= "color: #F2A0A0">Startups</b></h3>
+            <ul class="list-inline">
+                <li><img class="sponsor img-responsive" src= "img/sponsors/startup/mark43.png" alt="Mark43"></li>
+            </ul>
+            <p>Interested in getting involved? It’s not too late! Reach out at <a href="mailto:wicsexternalrelations@gmail.com">wicsexternalrelations@gmail.com</a> and we will send you sponsorship opportunities within 24 hours. </p>
+            <br>
+		</div>
+	</div>
+	
+	<!-- Schedule -->
+	<div id ="schedule" class = "text-center">
+		<div class="container">
+            <div class="section-title center">
+                <h2>Schedule</h2>
+                <div class="line">
+                </div>
+				<div class="clearfix"></div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-4">
+					<div class="title">Friday, Feb 26</div>
+					<div class="schedule-item">
+						<div class="time dark">TBD</div>
+					    <div class="description">TBD</div>
+					</div>
+				</div>
+				<div class = "col-md-4">
+					<div class="title">Saturday, Feb 27</div>
+					<div class="schedule-item">
+						<div class="time dark">8 - 8:45 AM</div>
+					    <div class="description">Registration, Breakfast & Sponsor Lounges</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">8:45 - 9 AM</div>
+					    <div class="description">Opening Remarks</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">9 - 10 AM</div>
+					    <div class="description">Keynote 1</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">10 AM</div>
+					    <div class="description">Panels</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">12 PM</div>
+					    <div class="description">Lightning Talks & Lunch</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">1 PM</div>
+					    <div class="description">Panels Session 1</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">2 PM</div>
+					    <div class="description">Keynote 2</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">3 PM</div>
+					    <div class="description">Workshops</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">5 PM</div>
+					    <div class="description">Keynote 3</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">6 PM</div>
+					    <div class="description">Closing Remarks</div>
+					</div>
+				</div>
+				<div class = "col-md-4">
+					<div class="title">Sunday, Feb 28</div>
+					<div class="schedule-item">
+						<div class="time dark">9 AM</div>
+					    <div class="description">Registration & Breakfast</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">10 AM</div>
+					    <div class="description">Social Event</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">11 AM</div>
+					    <div class="description">Keynote 4</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">12 PM</div>
+					    <div class="description">Mock Interviews Session</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">1 PM</div>
+					    <div class="description">Lunch</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">2 PM</div>
+					    <div class="description">Opportunites Fair</div>
+					</div>
+					<div class="schedule-item">
+						<div class="time dark">4 PM</div>
+					    <div class="description">Closing Remarks</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="bubble dark">More details coming soon!</div>
+				</div>
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>
+	
+	<!-- Registraton -->
+	<div id ="registration" class = "text-center">
+		<div class = "overlay">
+			<div class="container">
+	            <div class="section-title center">
+	                <h2>Registration</h2>
+	                <div class="line">
+	                </div>
+					<div class="clearfix"></div>
+				</div>
+				<div style="width:100%; text-align:center;" >
+					<iframe  src="http://eventbrite.com/tickets-external?eid=19868770026&ref=etckt" frameborder="0" height="380" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true">
+					</iframe>
+					<div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;">
+						<a class="powered-by-eb" style="color: #FFF; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a>
+					</div>
+				</div>
+	            <div class="section-title center">
+	                <h4>Housing</h4>
+	                <div class="line">
+	                </div>
+					<div class="clearfix"></div>
+				</div>
+	            <div class="row">
+	                <div class="col-md-8 col-md-offset-2">
+						<p>We will match you up with a Harvard WiCS member for Friday, Saturday, and/or Sunday night as available. Please fill out this <a href="https://docs.google.com/forms/d/18W0TXJJIjl9-WIOGxNiYrfRv0vALOX0v1GTE5ifCcRI/viewform?usp=send_form" target="_blank" class="dark"><b>form</b></a> and we will confirm by February 15th. Please note that due to limited housing, it will be provided on a combination of your distance from Harvard and a first come, first serve basis.</p>
+					</div>
+				</div>
+	            <div class="section-title center">
+	                <h4>Scholarships</h4>
+	                <div class="line">
+	                </div>
+					<div class="clearfix"></div>
+				</div>
+	            <div class="row">
+	                <div class="col-md-8 col-md-offset-2">
+						<p>WECode is dedicated to making it possible for as many women to attend as possible. If it would financially difficult for you to attend this conference on your own, please apply for a <a href ="https://docs.google.com/forms/d/16tPTXrVCJcO1GW9VMDQaFKjsfdFSRzexz29FEA7qBUQ/viewform?usp=send_form" target="_blank" class="dark">WECode Scholarship</a>. Scholarships will be awarded at the discretion of the WECode and Harvard WiCS board based on a combination of demonstrated need and personal qualifications.</p>
+					</div>
+				</div>
+				<div class = "space"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Frequently Asked Questions -->
+	<div id ="faq" class = "text-center">
+		<div class="container">
+            <div class="section-title center">
+                <h2>Frequently Asked Questions</h2>
+                <div class="line">
+                </div>
+				<div class="clearfix"></div>
+			</div>
+			<p><span>Do you have another question?</span> Ask us <a class = "dark" href="mailto:harvardwecode@gmail.com">harvardwecode@gmail.com.</a></p>
+			<ul id="questions">
+				<li><span>Who is welcome at WECode?</span> All genders are welcome at WECode! Everyone plays a role in supporting gender diversity. We also offer inclusive hosting with Harvard students. Please reach out to us at <a class = "dark" href="mailto:harvardwecode@gmail.com">harvardwecode@gmail.com</a> with any questions or special needs not addressed in our forms.</li>
+				<li><span>How can I register?</span> Register <a class = "dark" class = "dark" href = "https://docs.google.com/forms/d/1yl9lXTJIVtrRNC6xQQLcrhL_Ozkzyag-c4EvcMNwavI/viewform">here</a>. After filling out the form, you will be redirected to purchase a ticket with Eventbrite. Registration for the hands-on workshops will be posted online and sent to registered conference attendees once the information is finalized.</li>
+				<li><span>Where is the conference?</span> The conference will be held at <a class = "dark" target="_blank" href = "https://goo.gl/maps/NPGdufJu72P2">Northwest Labs</a>, Harvard University. Registration is on Saturday morning in <a class = "dark" target="_blank" href = "https://goo.gl/maps/ZDBtg5qvZHR2">Maxwell Dworkin</a>, 33 Oxford Street, Cambridge, MA 02138.</li>
+				<li><span>How do I get to Harvard?</span> The Maxwell Dworkin building and Northwest Lab are both within walking distance of the Harvard Square stop on the Red Line of the T (Boston’s Subway). <a class = "dark" href="http://www.harvardsquare.com/parking" target="_blank">Parking</a> spots, though few, are available in Harvard Square. A complete map of Harvard's campus can be found <a class = "dark" target="_blank" href="https://map.harvard.edu/">here</a>.</li>
+				<li><span>Is attendance required for the entire conference?</span> We hope to see you both days, but if you can’t make it, we understand. There are no discounts for Saturday or Sunday only.</li>
+				<li><span>Can I be reimbursed for travel?</span> If it would be a financial burden for you to attend, please apply for a scholarship <a class = "dark" class = "dark" href = "https://docs.google.com/forms/d/16tPTXrVCJcO1GW9VMDQaFKjsfdFSRzexz29FEA7qBUQ/viewform?usp=send_form">here</a>. Groups are especially encouraged to apply (please submit a single application).</li>
+				<li><span>What are the expenses for the conference?</span> Registration is $40 with several discounts available. We provide breakfast, lunch and plenty of snacks on both days. Dinner will be your own personal expense. Housing will be on a first come, first serve basis and attendees will be matched with Harvard students free of charge. </li>
+				<li><span>What are hotels in the area? Parking in the area?</span> A list of hotels within walking distance to Harvard's campus and the conference destination can be found at <a class = "dark" target="_blank" href="https://goo.gl/maps/SMTWZoswDGP2">here</a>. Parking options are available at the hotels listed above and can be found <a class = "dark" target="_blank" href = "https://goo.gl/maps/kgaibHyNym82">here</a>. Overnight parking may be possible at the Harvard Innovation Lab. Please contact us for further details.</li>
+				<li><span>Can high schoolers attend WECode?</span> While WECode is primarily for college students, we aim to be as inclusive as possible in supporting our mission. Send your resume to <a class = "dark" href="mailto:harvardwecode@gmail.com">harvardwecode@gmail.com</a> with subject line "High School Applicant," and we will get back to you if you are accepted within our capped group of high school attendees!</li>
+				<li><span>What is the Code of Conduct?</span> In order to create a positive conference experience, WECode will expect participants to behave in a manner that is welcoming and open to all. Please read the <a class="dark" href="img/code_of_conduct.pdf" target="_blank">Code of Conduct</a>.</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+    <nav id="footer">
         <div class="container text-center">
-            <p style="font-size: 15px;">Copyright &copy; <a href="http://www.harvardwics.com/" target="_blank">Harvard Women in Computer Science</a> 2016 | Site Design by <a href="http://www.anniel.in" target="_blank">Annie Lin</a></p>
+            <div class="fnav">
+                <p style="font-size: 15px;">Copyright &copy; <a href="http://www.harvardwics.com/" target="_blank">Harvard Women in Computer Science</a> 2016. Designed by Danielle Okezie</p>
+            </div>
         </div>
-    </footer>
+    </nav>
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>
