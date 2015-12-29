@@ -32,7 +32,6 @@ h2 strong {
 }
 
 h3{
-	font-size: 18px;
 	font-weight: 900;
 }
 
@@ -254,7 +253,7 @@ ul.about-list li span{
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #cfcfcf;
+	color: #FFF;
 }
 
 .sponsor {
