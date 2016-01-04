@@ -256,25 +256,30 @@ ul.about-list li span{
 	color: #FFF;
 }
 
-.sponsor {
+.silsponsor {
 	height: 40px;
 }
 
+.asana {
+	height: 60px;
+}
+
 .platsponsor {
-	height: 90px;
+	height: 140px;
 }
 
 .goldsponsor {
-	height: 60px;
+	height: 80px;
 }
 
 .bigsize {
-	height: 60px;
+	height: 80px;
 }
 
-.as-sponsor {
-	height: 20px;
+.startup {
+	height: 35px;
 }
+
 
 /*-------------- Schedule Section --------------*/
 
