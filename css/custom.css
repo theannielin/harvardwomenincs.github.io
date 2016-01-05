@@ -284,11 +284,13 @@ ul.about-list li span{
 /*-------------- Schedule Section --------------*/
 
 .title {
-  	text-transform: uppercase;
-  	font-weight: 700;
-  	color: #000;
-  	margin-bottom: 1em;
-  	margin-top: 1em; }
+    padding: 1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #552929;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
 
 #schedule .dark {
 	font-weight: 700;
@@ -299,13 +301,63 @@ ul.about-list li span{
   	text-align: left; 
 }
 
-#schedule .schedule-item .time,
-#schedule .schedule-item .description {
-    display: inline-block; 
+@media only screen and (max-width:750px) {
+    #schedule .schedule-item {
+        width: 90%;
+        float: none;
+        margin-right: 30px
+    }
 }
 
-#schedule .schedule-item .time {
-    width: 100px; 
+
+#schedule .schedule-item ol {
+    list-style-type: none;
+    padding: 0
+}
+
+#schedule .schedule-item ol li {
+    width: 100%;
+    margin-bottom: 15px
+}
+
+#schedule .schedule-item ol li p {
+    margin: 0;
+    white-space: normal
+}
+
+#schedule .schedule-item ol li p.header {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 0
+}
+
+#schedule .schedule-item ol li p.description {
+    opacity: .8;
+    margin: 0;
+    clear: both
+}
+
+#schedule .schedule-item ol li .time {
+    float: right;
+    color: #a45050;
+    font-weight: 900;
+    margin-right: 60px;
+    font-size: 1.5rem;
+    margin-top: .2em;
+}
+
+@media only screen and (max-width:1050px) {
+    #schedule .schedule-item ol li .time {
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    #schedule .schedule-item ol li .time {
+        position: relative;
+        margin: 0
+    }
 }
 
 #schedule .bubble {
