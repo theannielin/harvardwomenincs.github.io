@@ -256,16 +256,30 @@ ul.about-list li span{
 	color: #FFF;
 }
 
+@media only screen and (max-width:400px) {
+    #sponsors {
+    	background: #1a1a1a;
+    }
+}
+
 .silsponsor {
-	height: 40px;
+	height: 50px;
 }
 
 .asana {
-	height: 60px;
+	height: 50px;
+}
+
+.airbnb_sponsor {
+	height: 45px;
 }
 
 .platsponsor {
 	height: 140px;
+}
+
+.desco {
+	height: 70px;
 }
 
 .goldsponsor {
@@ -273,7 +287,7 @@ ul.about-list li span{
 }
 
 .bigsize {
-	height: 80px;
+	height: 75px;
 }
 
 .startup {
@@ -298,7 +312,7 @@ ul.about-list li span{
 }
 
 #schedule .schedule-item {
-  	text-align: left; 
+  	text-align: left;
 }
 
 @media only screen and (max-width:750px) {
@@ -416,6 +430,12 @@ img.img-circle.prog2-img {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+}
+
+@media only screen and (max-width:400px) {
+    #registration {
+    	background: #1a1a1a;
+    }
 }
 
 #registration .overlay{
