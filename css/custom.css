@@ -363,7 +363,8 @@ ul.about-list li span{
 
 @media only screen and (max-width:1050px) {
     #schedule .schedule-item ol li .time {
-        margin-right: 100px;
+        position: relative;
+        margin: 0
     }
 }
 
