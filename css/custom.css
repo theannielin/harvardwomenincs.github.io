@@ -319,7 +319,9 @@ ul.about-list li span{
     #schedule .schedule-item {
         width: 90%;
         float: none;
-        margin-right: 30px
+        margin-right: 30px;
+        padding-left: 20px;
+
     }
 }
 
@@ -356,9 +358,13 @@ ul.about-list li span{
     float: right;
     color: #a45050;
     font-weight: 900;
-    margin-right: 60px;
+    margin-right: 40px;
     font-size: 1.5rem;
     margin-top: .2em;
+}
+
+#schedule .col-md-4 {
+	padding: 0;
 }
 
 @media only screen and (max-width:1050px) {
