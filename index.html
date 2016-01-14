@@ -261,7 +261,7 @@
 	</div>
 	
 	<!-- Schedule -->
-	<div id ="schedule" class = "text-center">
+	<div id ="schedule" class = "text-center event-schedule">
 		<div class="container">
             <div class="section-title center">
                 <h2><b>Schedule</b></h2>
@@ -269,121 +269,182 @@
                 </div>
 				<div class="clearfix"></div>
 			</div>
-			<div class = "row">
-				<div class = "col-md-4">
-					<div class="title">Friday, Feb 26</div>
-					<div class = "schedule-item">
-						<ol>
-							<li>
-								<span class="time">8:00&ndash;10:00pm</span>
-								<p class="header">Friday Night Mixer</p>
-							</li>
-						</ol>
-					</div>
-				</div>
-				<div class = "col-md-4">
-					<div class="title">Saturday, Feb 27</div>
-					<div class="schedule-item">
-						<ol>
-	                        <li>
-	                            <span class="time">9:00&ndash;9:45am</span>
-	                            <p class="header">Registration, Breakfast, & Sponsor Lounges</p>
-	                            <p class="description">Check in at Maxwell Dworkin</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">10:00am</span>
-	                            <p class="header">Keynote 1</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">11:00am</span>
-	                            <p class="header">Panels A</p>
-	                            <p class="description">Listen to professionals</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">12:00pm</span>
-	                            <p class="header">Panels B</p>
-	                            <p class="description">Listen to professionals</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">1:00pm</span>
-	                            <p class="header">Lightning Talks & Lunch</p>
-	                            <p class="description">Eat, mingle, and learn</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">2:00pm</span>
-	                            <p class="header">Keynote 2</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">3:00pm</span>
-	                            <p class="header">Fireside Chats A & Workshops A</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">4:00pm</span>
-	                            <p class="header">Fireside Chats B & Workshops B</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">5:00pm</span>
-	                            <p class="header">Keynote 3 - Cathryn Posey</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">6:00pm</span>
-	                            <p class="header">Closing Remarks</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">7:00&ndash;8:00pm</span>
-	                            <p class="header">Mixer at Cambridge Queen's Head Pub</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">9:00pm</span>
-	                            <p class="header">Movie Night</p>
-	                        </li>
-						</ol>
-					</div>
-				</div>
-				<div class = "col-md-4">
-					<div class="title">Sunday, Feb 28</div>
-					<div class="schedule-item">
-						<ol>
-	                        <li>
-	                            <span class="time">9:00&ndash;10:00am</span>
-	                            <p class="header">Registration & Breakfast</p>
-	                            <p class="description">Check in at Maxwell Dworkin</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">10:00am</span>
-	                            <p class="header">Yoga</p>
-	                            <p class="description">Relax with other WECoders</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">11:00am</span>
-	                            <p class="header">Keynote 4 - Tracy Chou</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">12:00pm</span>
-	                            <p class="header">Lunch</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">1:00pm&ndash;2:00pm</span>
-	                            <p class="header">Mock Interviews</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">1:00&ndash;3:00pm</span>
-	                            <p class="header">Puzzle Hunt & Workshops</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">2:00&ndash;5:00pm</span>
-	                            <p class="header">Opportunites Fair</p>
-								<p class="description">Connect with our sponsors</p>
-	                        </li>
-	                        <li>
-	                            <span class="time">5:00pm</span>
-	                            <p class="header">Closing Remarks</p>
-	                        </li>
-						</ol>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="bubble dark">More details coming soon!</div>
+			<div role="tabpanel">
+                <ul class="nav nav-tabs" role="tablist">
+                	<li role="presentation" class="active"><a href="#schedule1" aria-controls="schedule1" role="tab" data-toggle="tab">Friday, Feb 26</a></li>
+                    <li role="presentation"><a href="#schedule2" aria-controls="schedule2" role="tab" data-toggle="tab">Saturday, Feb 27</a></li>
+                    <li role="presentation"><a href="#schedule3" aria-controls="schedule3" role="tab" data-toggle="tab">Sunday, Feb 28</a></li>
+                </ul>
+				<div class = "tab-content">
+					<div role="tabpanel" class="tab-pane active" id="schedule1">
+						<div class="event-day">
+							<h5>Feb <span>26</span></h5>
+							<ul class="row">
+                                <li class="col-md-1"><span>8:00pm</span></li>
+                                <li class="col-md-5">Early Registration</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+							</ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>8:00pm</span>10:00pm</li>
+                                <li class="col-md-5">Friday Night Mixer</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+						</div><!--End of day 1-->
+					</div><!-- End of Schedule 1 -->
+					<div role="tabpanel" class="tab-pane" id="schedule2">
+						<div class="event-day">
+							<h5>Feb <span>27</span></h5>
+							<ul class="row">
+                                <li class="col-md-1"><span>8:00am</span>9:15am</li>
+                                <li class="col-md-5">Registration & Breakfast</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+							</ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>8:00am</span>1:00pm</li>
+                                <li class="col-md-5">Lounge - Company 1</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>Till</span>12:00pm</li>
+                                <li class="col-md-5">Late Registration</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>9:15am</span>9:30am</li>
+                                <li class="col-md-5">Welcoming Remarks</li>
+                                <li class="col-md-3"><span>Venue:</span> NW Conference</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>9:30am</li>
+                                <li class="col-md-5">Keynote 1</li>
+								<li class="col-md-2"><i>Speaker: Stay Tuned!</i></li>
+                                <li class="col-md-3"><span>Venue:</span> NW Conference</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>10:30am</li>
+                                <li class="col-md-5">Panels A</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>11:30am</li>
+                                <li class="col-md-5">Panels B</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>12:30pm</li>
+                                <li class="col-md-5">Lunch & Break</li>
+                                <li class="col-md-3"><span>Venue:</span> NW Conference</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>1:00pm</span>6:00pm</li>
+                                <li class="col-md-5">Lounge - Company 2</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>1:00pm</li>
+                                <li class="col-md-5">Lightning Talks</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>2:00pm</li>
+                                <li class="col-md-5">Keynote 2</li>
+								<li class="col-md-2"><i>Speaker: Stay Tuned!</i></li>
+                                <li class="col-md-3"><span>Venue:</span> NW Conference</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>3:00pm</li>
+                                <li class="col-md-5">Workshops & Fireside Chats 1</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>4:00pm</li>
+                                <li class="col-md-5">Workshops & Fireside Chats 2</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>5:00pm</li>
+                                <li class="col-md-5">Keynote 3</li>
+								<li class="col-md-2"><i>Speaker: Stay Tuned!</i></li>
+                                <li class="col-md-3"><span>Venue:</span> NW Conference</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>6:00pm</li>
+                                <li class="col-md-5">Closing Remarks</li>
+                                <li class="col-md-3"><span>Venue:</span> Conference</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>6:00pm</span>8:00pm</li>
+                                <li class="col-md-5">Mixer</li>
+                                <li class="col-md-3"><span>Venue:</span> Cambridge Queen's Head'</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>10:00pm</li>
+                                <li class="col-md-5">Movie Night</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+						</div><!--End of day 2-->
+					</div><!-- End of Schedule 2 -->
+					<div role="tabpanel" class="tab-pane" id="schedule3">
+						<div class="event-day">
+							<h5>Feb <span>28</span></h5>
+							<ul class="row">
+                                <li class="col-md-1"><span>9:00am</span></li>
+                                <li class="col-md-5">Registration & Breakfast</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+							</ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>9:00am</span>1:00pm</li>
+                                <li class="col-md-5">Lounge - Company 3</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>10:00am</li>
+                                <li class="col-md-5">Yoga</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>11:00am</li>
+                                <li class="col-md-5">Keynote 4</li>
+								<li class="col-md-2"><i>Speaker: Stay Tuned!</i></li>
+                                <li class="col-md-3"><span>Venue:</span> NW Basement</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>12:00pm</li>
+                                <li class="col-md-5">Lunch</li>
+                                <li class="col-md-3"><span>Venue:</span> NW Basement</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>12:15pm</li>
+                                <li class="col-md-5">Lightning Talks</li>
+                                <li class="col-md-3"><span>Venue:</span> NW Basement</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>1:00pm</li>
+                                <li class="col-md-5">Mock Interviews & Workshops</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>1:00pm</li>
+                                <li class="col-md-5">Innovation Challenge</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>1:00pm</span>5:00pm</li>
+                                <li class="col-md-5">Lounge - Company 4</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>2:00pm</li>
+                                <li class="col-md-5">Opportunities Fair</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+                            <ul class="row">
+                             	<li class="col-md-1"><span>5:00pm</li>
+                                <li class="col-md-5">Closing Remarks</li>
+                                <li class="col-md-3"><span>Venue:</span> TBD</li>
+                            </ul>
+						</div><!--End of day 3-->
+					</div><!-- End of Schedule 3 -->
 				</div>
 			</div>
 		</div>
