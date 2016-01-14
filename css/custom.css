@@ -297,102 +297,116 @@ ul.about-list li span{
 
 /*-------------- Schedule Section --------------*/
 
-.title {
-    padding: 1em;
+.event-schedule .event-day {
+    border-top: 2px solid #000;
+    position: relative;
+    padding-left: 80px;
+    margin-top: -1px;
+}
+.event-schedule .event-day h5 {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #31393f;
+    padding-top: 10px;
+    line-height: 1.5em;
+    text-transform: none;
     font-weight: 700;
-    margin-bottom: 15px;
-    color: #552929;
-    font-size: 1.4em;
-    text-transform: uppercase;
 }
-
-#schedule .dark {
-	font-weight: 700;
-  	color: #a45050; 
+.event-schedule .event-day h5 span {
+    font-weight: 400;
 }
-
-#schedule .schedule-item {
-  	text-align: left;
-}
-
-@media only screen and (max-width:750px) {
-    #schedule .schedule-item {
-        width: 90%;
-        float: none;
-        margin-right: 30px;
-        padding-left: 20px;
-
-    }
-}
-
-
-#schedule .schedule-item ol {
-    list-style-type: none;
-    padding: 0
-}
-
-#schedule .schedule-item ol li {
-    width: 100%;
-    margin-bottom: 15px
-}
-
-#schedule .schedule-item ol li p {
+.event-schedule .tab-content ul {
     margin: 0;
-    white-space: normal
+    padding: 3px 0;
+    font-size: 0;
+    border-bottom: 2px solid #000;
 }
-
-#schedule .schedule-item ol li p.header {
-    font-size: 16px;
-    font-weight: 600;
+.event-schedule .tab-content ul:hover {
+    background: #f6f6f6;
+}
+.event-schedule .tab-content ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    min-height: 42px;
     color: #000;
-    margin: 0
+    font-weight: 500;
+    *zoom: 1;
+    *display: inline;
 }
-
-#schedule .schedule-item ol li p.description {
-    opacity: .8;
+.event-schedule .tab-content ul li a {
+    color: #31393f;
+    font-size: 15px;
+    font-weight: 400;
+}
+.event-schedule .tab-content ul li a:hover {
+    border-bottom: 1px dotted;
+}
+.event-schedule .tab-content ul li i {
+    color: #eb3739;
+    font-style: normal;
+    font-weight: 400;
+}
+.event-schedule .tab-content ul li:first-child {
+    border-right: 2px solid #ccd5da;
+    font-size: 13px;
+    text-align: right;
+    line-height: 1.5em;
+    font-weight: 400;
+    padding: 5px 10px;
+    color: #9fa3a5;
+    margin-right: 10px;
+}
+.event-schedule .tab-content ul li:last-child {
+    border-left: 2px solid #ccd5da;
+    text-align: center;
+    color: #9fa3a5;
+    font-weight: 300;
+}
+.event-schedule .tab-content ul li:last-child span {
+	color: #000;
+    font-weight: 700;
+}
+.event-schedule .tab-content ul li:first-child span {
+    display: block;
+    color: #31393f;
+}
+.event-schedule .nav-tabs {
+    border: 0;
+    padding: 0;
+    font-size: 0;
+    margin: 0 0 40px 0;
+}
+.event-schedule .nav-tabs li {
+    display: inline-block;
+    margin: 0 -1px 0 0;
+    font-size: 14px;
+    padding: 0;
+    *zoom: 1;
+    *display: inline;
+}
+.event-schedule .nav-tabs > li > a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    min-width: 200px;
+    border: 1px solid #d7d7d7;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #000;
     margin: 0;
-    clear: both
+    border-radius: 0;
 }
-
-#schedule .schedule-item ol li .time {
-    float: right;
-    color: #a45050;
-    font-weight: 900;
-    margin-right: 40px;
-    font-size: 1.5rem;
-    margin-top: .2em;
-}
-
-#schedule .col-md-4 {
-	padding: 0;
-}
-
-@media only screen and (max-width:1050px) {
-    #schedule .schedule-item ol li .time {
-        position: relative;
-        margin: 0
-    }
-}
-
-@media only screen and (max-width:750px) {
-    #schedule .schedule-item ol li .time {
-        position: relative;
-        margin: 0
-    }
-}
-
-#schedule .bubble {
-  	display: inline-block; }
-
-.bubble {
-  	background: #fff;
-  	border-radius: 5px;
-  	border: 5px solid #888;
-  	color: #a45050;
-  	padding: 1em;
-  	margin-top: 4em;
-  	margin-left: 1em;
-  	position: relative; 
+.event-schedule .nav-tabs > li.active > a,
+.event-schedule .nav-tabs > li > a:hover {
+    background: #F2A0A0;
+    color: #fff;
+    border: 1px solid #F2A0A0;
 }
 
 /*-------------- Programming Section --------------*/
