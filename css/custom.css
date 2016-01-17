@@ -365,7 +365,7 @@ ul.about-list li span{
 .event-schedule .tab-content ul li:last-child {
     border-left: 2px solid #ccd5da;
     text-align: center;
-    color: #9fa3a5;
+    color: #000;
     font-weight: 300;
 }
 .event-schedule .tab-content ul li:last-child span {
