@@ -274,6 +274,10 @@ ul.about-list li span{
 	height: 45px;
 }
 
+.capital, .amazon-robotics {
+	height: 100px;
+}
+
 .platsponsor {
 	height: 140px;
 }
