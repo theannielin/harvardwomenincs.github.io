@@ -462,8 +462,10 @@ ul.about-list li span{
 	text-align: left;
 }
 
-#programming ul.push{
+#programming ul {
 	text-align: left;
+	padding-left: 20px;
+	margin-left: 20px;
 }
 
 #programming i.fa {
@@ -531,6 +533,9 @@ ul.about-list li span{
   color: black !important;
 }
 
+#programming .description .light-text {
+	font-weight: 600;
+}
 /* Member Image Hover Effect */
 .hover_img {
   display: none
