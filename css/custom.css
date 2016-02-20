@@ -464,12 +464,14 @@ ul.about-list li span{
 
 #programming p {
 	text-align: left;
+	font-weight: 600;
 }
 
 #programming ul {
 	text-align: left;
 	padding-left: 20px;
 	margin-left: 20px;
+	font-weight: 600;
 }
 
 #programming i.fa {
